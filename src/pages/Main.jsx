@@ -1,4 +1,5 @@
 import React from 'react'
+import { Alert } from '../components/Alert'
 import { Form } from '../components/Form'
 import { Notes } from '../components/Notes'
 
@@ -8,6 +9,7 @@ export const Main = () => {
    })
    return (
       <div>
+         <Alert/>
          <Form/>
          <Notes note={note}/>
       </div>
