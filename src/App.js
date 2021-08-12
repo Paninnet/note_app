@@ -17,7 +17,7 @@ function App() {
           <Header />
           <div className="container">
             <Switch>
-              <Route exact path='/' component={Main}></Route>
+              <Route exact path='/note_app' component={Main}></Route>
               <Route path='/about' component={About}></Route>
             </Switch>
           </div>

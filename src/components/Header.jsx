@@ -10,7 +10,7 @@ export const Header = () => {
          
             
          <ul className='navbar-nav'>
-            <li className='nav-item'><NavLink className='nav-link' exact to='/'> <p>HOME</p> </NavLink></li>
+            <li className='nav-item'><NavLink className='nav-link' exact to='/note_app'> <p>HOME</p> </NavLink></li>
             <li className='nav-item'><NavLink className='nav-link' exact to='/about'> <p>ABOUT</p> </NavLink></li>
          </ul>
       </div>
