@@ -1,18 +1,18 @@
 import React from 'react'
 
-export const Notes = ({ note }) => {
-   console.log(note);
-   debugger
+export const Notes = ({ note, onRemove }) => {
+
+console.log(note);
    return (
       <ul className='list-group'>
          {note.map((_, i) => {
             return (<li className='list-group-item' key={i + 1}>
                <div className='note_data'>
                   <span className='note_body'>{i + 1}) {note[i].title}</span>
-                  <span className='data'>{new Date().toLocaleDateString()}</span>
-                  <span className='data'>{new Date().toLocaleTimeString()}</span>
+                  <span className='data'>{note[i].date}</span>
+                  <span className='data'>{note[i].time}</span>
                </div>
-               <button type="button" class="btn btn-outline-danger">&times;</button>
+               <button onClick={() =>onRemove(note[i].id)} type="button" class="btn btn-outline-danger">&times;</button>
 
             </li>)
          })}

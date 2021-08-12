@@ -41,3 +41,14 @@ code {
   display: flex;
   justify-content: space-between;
 }
+.allert-enter{
+  opacity: 0;
+}
+.allert-enter-active{
+  opacity: 1;
+  transition: opacity 500 ms ease-out;
+}
+.allert-exit-active{
+  opacity: 0;
+  transition: opacity 350 ms ease-out;
+}

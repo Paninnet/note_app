@@ -1,5 +1,6 @@
 import { useReducer } from "react"
 import { alertContext } from "./alertContext"
+
 import { alertReducer, HIDE_ALERT, SHOW_ALERT } from "./alertReducer"
 
 export const AlertState = ({children}) =>{
@@ -10,7 +11,7 @@ export const AlertState = ({children}) =>{
       dispatch({type:HIDE_ALERT})
    }
 
-   debugger
+
    const show = (text, type = 'success' ) =>{ 
       dispatch({type:SHOW_ALERT,state:{text,type}})
    }
