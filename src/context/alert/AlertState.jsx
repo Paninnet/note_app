@@ -9,8 +9,7 @@ export const AlertState = ({children}) =>{
    const hide = () =>{
       dispatch({type:HIDE_ALERT})
    }
-
-   debugger
+   
    const show = (text, type = 'success' ) =>{ 
       dispatch({type:SHOW_ALERT,state:{text,type}})
    }

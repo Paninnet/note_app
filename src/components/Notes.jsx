@@ -1,7 +1,8 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import { firebaseContext } from '../context/firebase/firebaseContext'
 
 export const Notes = ({ note }) => {
-   console.log(note);
+const {delet_note} = useContext(firebaseContext)
    debugger
    return (
       <ul className='list-group'>
@@ -12,7 +13,7 @@ export const Notes = ({ note }) => {
                   <span className='data'>{new Date().toLocaleDateString()}</span>
                   <span className='data'>{new Date().toLocaleTimeString()}</span>
                </div>
-               <button type="button" class="btn btn-outline-danger">&times;</button>
+               <button onClick={()=>delet_note(note[i].id)} type="button" class="btn btn-outline-danger">&times;</button>
 
             </li>)
          })}
