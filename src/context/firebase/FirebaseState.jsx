@@ -5,7 +5,7 @@ import axios from 'axios'
 
 export const FirebaseState = ({ children }) => {
 
-   const url = `https://react-note-fd039-default-rtdb.firebaseio.com/`
+   const url = `https://react-note-2-default-rtdb.firebaseio.com/`
 
    const initialstate = {
       loading: false,
@@ -14,7 +14,7 @@ export const FirebaseState = ({ children }) => {
    const load = () => {
       dispatch({ type: LOADING })
    }
-   debugger
+
 
    const fetchNotes = async () => {
       load()
@@ -22,7 +22,6 @@ export const FirebaseState = ({ children }) => {
       let payload = []
       if (res.data) {
         
-         console.log('FETCH', res.data);
 
          payload= Object.keys(res.data).map(key => {
             return {

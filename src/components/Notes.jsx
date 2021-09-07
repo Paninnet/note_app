@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Notes = ({ note, onRemove }) => {
 
-console.log(note);
+
    return (
       <ul className='list-group'>
          {note.map((_, i) => {
