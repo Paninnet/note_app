@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/note-app/static/css/main.a5d60c53.chunk.css",
-    "main.js": "/note-app/static/js/main.ddd6abd6.chunk.js",
-    "main.js.map": "/note-app/static/js/main.ddd6abd6.chunk.js.map",
-    "runtime-main.js": "/note-app/static/js/runtime-main.d4a15445.js",
-    "runtime-main.js.map": "/note-app/static/js/runtime-main.d4a15445.js.map",
-    "static/js/2.2e97f3aa.chunk.js": "/note-app/static/js/2.2e97f3aa.chunk.js",
-    "static/js/2.2e97f3aa.chunk.js.map": "/note-app/static/js/2.2e97f3aa.chunk.js.map",
-    "static/js/3.07e3556d.chunk.js": "/note-app/static/js/3.07e3556d.chunk.js",
-    "static/js/3.07e3556d.chunk.js.map": "/note-app/static/js/3.07e3556d.chunk.js.map",
-    "index.html": "/note-app/index.html",
-    "static/css/main.a5d60c53.chunk.css.map": "/note-app/static/css/main.a5d60c53.chunk.css.map",
-    "static/js/2.2e97f3aa.chunk.js.LICENSE.txt": "/note-app/static/js/2.2e97f3aa.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/note-app/static/media/logo.6ce24c58.svg"
+    "main.css": "/static/css/main.a5d60c53.chunk.css",
+    "main.js": "/static/js/main.ddd6abd6.chunk.js",
+    "main.js.map": "/static/js/main.ddd6abd6.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.69533c23.js",
+    "runtime-main.js.map": "/static/js/runtime-main.69533c23.js.map",
+    "static/js/2.2e97f3aa.chunk.js": "/static/js/2.2e97f3aa.chunk.js",
+    "static/js/2.2e97f3aa.chunk.js.map": "/static/js/2.2e97f3aa.chunk.js.map",
+    "static/js/3.07e3556d.chunk.js": "/static/js/3.07e3556d.chunk.js",
+    "static/js/3.07e3556d.chunk.js.map": "/static/js/3.07e3556d.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.a5d60c53.chunk.css.map": "/static/css/main.a5d60c53.chunk.css.map",
+    "static/js/2.2e97f3aa.chunk.js.LICENSE.txt": "/static/js/2.2e97f3aa.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.d4a15445.js",
+    "static/js/runtime-main.69533c23.js",
     "static/js/2.2e97f3aa.chunk.js",
     "static/css/main.a5d60c53.chunk.css",
     "static/js/main.ddd6abd6.chunk.js"
