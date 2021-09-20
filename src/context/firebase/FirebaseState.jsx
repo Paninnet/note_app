@@ -5,7 +5,7 @@ import axios from 'axios'
 
 export const FirebaseState = ({ children }) => {
 
-   const url = `https://react-note-2-default-rtdb.firebaseio.com/`
+   const url = `https://reactnoteapp-63fe3-default-rtdb.europe-west1.firebasedatabase.app/`
 
    const initialstate = {
       loading: false,
